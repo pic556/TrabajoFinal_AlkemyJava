@@ -64,7 +64,7 @@ public class Usuario {
 	public void informacionUsuario() {
 		System.out.println("\nver libros del usuario: " + DNI);
 				for (Libro libro : ListaLibros) {
-					System.out.println("\nindice de Libros de usarios " + ListaLibros.indexOf(libro) );
+					System.out.println("\nindice de Libro de usarios " + ListaLibros.indexOf(libro) );
 					 libro.infoLibro();
 				}
 	}

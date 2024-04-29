@@ -30,7 +30,7 @@ public class Libro {
 	    	Titulo = scan.next();
 	    	System.out.println("INGRESAR AUTOR: ");
 	    	Autor = scan.next();
-	    	System.out.println("INGRESAR ISBN (numero identificador): ");
+	    	System.out.println("INGRESAR ISBN (numero identificador/numero de indice): ");
 	    	ISBN = scan.nextInt();
 	    	System.out.println("INGRESAR GENERO (narrativa n / poesia p / drama d) : ");
 	    	Genero = scan.next();
